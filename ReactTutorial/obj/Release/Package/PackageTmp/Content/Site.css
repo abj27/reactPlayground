@@ -1,0 +1,72 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+#stars-frame .glyphicon {
+    margin: 0.3em;
+    font-size: 1.75em;
+
+}
+
+#stars-frame, #answer-frame {
+    width: 40%;
+    float: left;
+}
+
+#button-frame {
+    width: 20%;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#stars-frame .well, #answer-frame .well {
+    height: 200px;
+}
+
+
+#numbers-frame .number , #answer-frame .well span{
+    display: inline-block;
+    margin: 0.5em;
+    background-color: #bbb;
+    width: 30px;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+#numbers-frame .selected-true {
+    background-color: #e8e8e8;
+    color: #ddd;
+    cursor: not-allowed;
+}
+ 
+#numbers-frame .used-true {
+    background-color: #aaddaa;
+    color: #99aa99;
+    cursor: not-allowed;
+}
+
